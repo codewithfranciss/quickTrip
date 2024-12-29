@@ -10,10 +10,10 @@ const Navbar = () =>{
             {/* buttons */}
             <div className="flex items-center pr-9 gap-10">
                 <div>
-                    <a href="">Login</a>
+                    <Link href="/user/login">Login</Link>
                 </div>
                 <div>
-                    <Button className="bg-secondary rounded-lg px-4 text-background">Sign Up</Button>
+                    <Link href="/user/signup"><Button className="bg-secondary rounded-lg px-4 text-background">Sign Up</Button></Link>
                 </div>
             </div>
             </div>
