@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { Section } from "lucide-react";
 
 export default function Home() {
   return (
-  <section>
-    <Button>Hello</Button>
-<h1>Hellos</h1>
-  </section>
+    <div>
+      
+    </div>
   
   
   );
